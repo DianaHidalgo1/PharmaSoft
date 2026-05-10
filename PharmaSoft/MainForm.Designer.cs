@@ -1,6 +1,6 @@
 ﻿namespace PharmaSoft
 {
-    partial class MainForm
+    partial class PharmaSoft
     {
         /// <summary>
         ///  Required designer variable.
@@ -39,6 +39,7 @@
             panel1.SuspendLayout();
             SuspendLayout();
             // 
+            // PharmaSoft
             // panel1
             // 
             panel1.Controls.Add(button6);
@@ -121,6 +122,9 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Name = "PharmaSoft";
+            Text = "PharmaSoft";
             ClientSize = new Size(1143, 750);
             Controls.Add(panel1);
             Margin = new Padding(4, 5, 4, 5);

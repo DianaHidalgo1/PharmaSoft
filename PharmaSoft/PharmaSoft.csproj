@@ -7,9 +7,14 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
+	<ItemGroup>
+		<ProjectReference Include="..\PharmaSoft.Data\PharmaSoft.Data.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Aplicada1.Core" Version="1.0.0" />
+	</ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PharmaSoft.Data\PharmaSoft.Data.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.3" />
   </ItemGroup>
 
 </Project>
