@@ -2,15 +2,44 @@
 {
     partial class PharmaSoft
     {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        private System.Windows.Forms.Panel panelLateral;
+        private System.Windows.Forms.Panel panelCabecera;
+        private System.Windows.Forms.Panel panelEstado;
+        private System.Windows.Forms.Panel panelContenido;
+
+        private System.Windows.Forms.Label lblLogo;
+        private System.Windows.Forms.Button btnInicio;
+        private System.Windows.Forms.Button btnInventario;
+        private System.Windows.Forms.Button btnVentas;
+        private System.Windows.Forms.Button btnClientes;
+        private System.Windows.Forms.Button btnRecetas;
+        private System.Windows.Forms.Button btnCompras;
+        private System.Windows.Forms.Button btnReportes;
+        private System.Windows.Forms.Button btnConfiguracion;
+
+        // Elementos de la cabecera
+        private System.Windows.Forms.Label lblTituloCabecera;
+
+        // Elementos de la barra de estado
+        private System.Windows.Forms.Label lblUsuario;
+        private System.Windows.Forms.Label lblTotalProductos;
+
+        private System.Windows.Forms.Label lblTituloSeccion;
+        private System.Windows.Forms.TextBox txtBuscar;
+        private System.Windows.Forms.Button btnAnadir;
+        private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.DataGridView dgvInventario;
+
+        private System.Windows.Forms.DataGridViewTextBoxColumn colCodigo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colNombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colLaboratorio;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colCantidad;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colPrecio;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colCaducidad;
+
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,10 +51,6 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             panel1 = new Panel();
